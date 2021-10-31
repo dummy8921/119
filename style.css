@@ -1,0 +1,38 @@
+body 
+{
+ background-color: rgb(103, 213, 247);
+}
+#show_sketch
+{
+    float: right;
+}
+p
+{
+    padding-top: 10px;
+    font-size: 25px;
+}
+canvas
+{
+    border:5px solid rgb(50, 157, 245);
+    border-radius: 20px;
+    animation-name:BTSG;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes BTSG
+{
+  from
+  {
+    box-shadow: 1px 1px 40px red;
+  }
+  to
+  {
+    box-shadow: 1px 1px 40px rgb(37, 243, 71);
+  }
+}
+p
+{
+    padding-top: 10px;
+    font-size: 25px;
+}
